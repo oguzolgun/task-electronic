@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/task-electronic/static/css/main.ef458438.css",
+    "main.js": "/task-electronic/static/js/main.8887d245.js",
+    "index.html": "/task-electronic/index.html",
+    "main.ef458438.css.map": "/task-electronic/static/css/main.ef458438.css.map",
+    "main.8887d245.js.map": "/task-electronic/static/js/main.8887d245.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef458438.css",
+    "static/js/main.8887d245.js"
+  ]
+}
