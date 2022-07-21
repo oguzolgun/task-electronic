@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/task-electronic/static/css/main.ef458438.css",
-    "main.js": "/task-electronic/static/js/main.db015640.js",
+    "main.js": "/task-electronic/static/js/main.64f39967.js",
     "index.html": "/task-electronic/index.html",
     "main.ef458438.css.map": "/task-electronic/static/css/main.ef458438.css.map",
-    "main.db015640.js.map": "/task-electronic/static/js/main.db015640.js.map"
+    "main.64f39967.js.map": "/task-electronic/static/js/main.64f39967.js.map"
   },
   "entrypoints": [
     "static/css/main.ef458438.css",
-    "static/js/main.db015640.js"
+    "static/js/main.64f39967.js"
   ]
 }
