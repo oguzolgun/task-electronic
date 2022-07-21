@@ -11,7 +11,7 @@ const Details = () => {
       }, [params.id]);
       // const {id,title,price,description,category,image , rating} = product
   return (
-    <div className="container mt-2 card text-light shadow p-3 mb-5 bg-secondary rounded">
+    <div className="container mt-2 card text-light shadow-lg p-3 mb-5 bg-secondary rounded">
       <h1 className="text-center">{product?.title}</h1>
       <div className="card mb-3">
         <div className="row g-0">
