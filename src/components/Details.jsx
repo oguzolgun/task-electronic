@@ -25,7 +25,7 @@ const Details = () => {
             <img
               src={product?.image}
                  
-              className="rounded-start img-thumbnail mh-50 "
+              className="rounded-start img-thumbnail mh-50 justify-center"
               alt={product?.title}
               width={"300px"} 
             />
@@ -36,7 +36,7 @@ const Details = () => {
               <p className="card-text">{product?.title}</p>
             </div>
             <ul className="list-group ">
-              <li className="list-group-item text-">
+              <li className="list-group-item text-capitalize">
                 {"Category : " + product?.category}
               </li>
               <li className="list-group-item fs-2">
