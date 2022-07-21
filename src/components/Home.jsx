@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 
 import Product from "./Product";
 
@@ -13,7 +14,10 @@ const Home = () => {
     console.log(products);
   return (
     <div >
-      <div className="container-lg mt-1 text-warning">
+      <Helmet> <title>
+        home
+      </title></Helmet>
+      <div className="container-lg mt-1 text-warning ">
         <h1 style={{textAlign: "center", background:"#6C757D"}}>Electronic Products</h1>
         <div className="row g-4 py-5 ">
            {products.map((item,index) => {

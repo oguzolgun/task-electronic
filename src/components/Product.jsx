@@ -7,13 +7,12 @@ const Product = ({item}) => {
     
   return (
     
-          
           <div className="card text-light  bg-secondary rounded h-100 border-dark mb-3 shadow-lg p-3 mb-6" style={{width: "18rem"}}>
             <img 
             src={item.image} 
             className="card-img-top img-fluid mh-50 " 
             alt={item.image}
-            style={{ height: "200px"}}/>
+            style={{ height: "200px" }}/>
               
             <div className="card-body ">
               <h5 className="card-title fw-light"> {item.title}</h5>

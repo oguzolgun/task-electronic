@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import {useParams }from "react-router-dom"
 
 const Details = () => {
@@ -11,17 +12,22 @@ const Details = () => {
       }, [params.id]);
       // const {id,title,price,description,category,image , rating} = product
   return (
+
+
     <div className="container mt-2 card text-light shadow-lg p-3 mb-5 bg-secondary rounded">
+      <Helmet> <title>
+        {product.title}
+      </title></Helmet>
       <h1 className="text-center">{product?.title}</h1>
       <div className="card mb-3">
         <div className="row g-0">
-          <div className="col-md-4">
+          <div className="col-md-4 d-flex ">
             <img
               src={product?.image}
                  
-              className="rounded-start img-thumbnail "
+              className="rounded-start img-thumbnail mh-50 "
               alt={product?.title}
-              width={"300px"}
+              width={"300px"} 
             />
           </div>
           <div className="col-md-8 d-flex text-dark flex-column ">
@@ -30,7 +36,7 @@ const Details = () => {
               <p className="card-text">{product?.title}</p>
             </div>
             <ul className="list-group ">
-              <li className="list-group-item">
+              <li className="list-group-item text-">
                 {"Category : " + product?.category}
               </li>
               <li className="list-group-item fs-2">
@@ -50,6 +56,7 @@ const Details = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
     
